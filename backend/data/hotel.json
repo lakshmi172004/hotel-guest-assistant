@@ -1,0 +1,45 @@
+{
+  "hotel": {
+    "name": "Grand Horizon Hotel",
+    "checkIn": "2:00 PM",
+    "checkOut": "11:00 AM",
+    "breakfast": {
+      "included": true,
+      "timing": "7:00 AM - 10:00 AM"
+    },
+    "amenities": [
+      "Swimming Pool",
+      "Gym",
+      "Restaurant",
+      "Free Wi-Fi"
+    ],
+    "cancellationPolicy": "Free cancellation up to 24 hours before check-in."
+  },
+  "rooms": [
+    {
+      "name": "Standard Room",
+      "capacity": 2,
+      "pricePerNight": 3000
+    },
+    {
+      "name": "Deluxe Room",
+      "capacity": 3,
+      "pricePerNight": 4500
+    },
+    {
+      "name": "Family Suite",
+      "capacity": 4,
+      "pricePerNight": 6000
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Wi-Fi available?",
+      "answer": "Yes, free Wi-Fi is available for hotel guests."
+    },
+    {
+      "question": "Is breakfast included?",
+      "answer": "Yes, breakfast is included and is served from 7:00 AM to 10:00 AM."
+    }
+  ]
+}
