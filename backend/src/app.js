@@ -9,9 +9,9 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://hotel-guest-assistant-lj9j39gzo-hotel-guest-assistant.vercel.app",
-    methods: ["GET", "POST"],
-    allowedHeaders: ["Content-Type"]
+    origin: "https://hotel-guest-assistant-one.vercel.app",
+    methods: ["GET", "POST", "OPTIONS"],
+    allowedHeaders: ["Content-Type"],
   })
 );
 
