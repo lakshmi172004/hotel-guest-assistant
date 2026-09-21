@@ -36,15 +36,13 @@ function AvailabilityForm() {
         try {
 
             // Call backend availability API
-            const response = await fetch(
-                "http://localhost:5000/api/availability",
-                {
-                    method: "POST",
-
-                    headers: {
-                        "Content-Type": "application/json"
-                    },
-
+           const response = await fetch(
+    `${import.meta.env.VITE_API_URL || "http://localhost:5000"}/api/availability`,
+    {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
                     body: JSON.stringify({
                         checkIn: checkIn,
                         checkOut: checkOut,
