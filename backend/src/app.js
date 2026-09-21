@@ -8,11 +8,11 @@ const availabilityRoutes = require("./routes/availabilityRoutes");
 const app = express();
 
 app.use(
-    cors({
-        origin: process.env.FRONTEND_URL || "http://localhost:5173",
-        methods: ["GET", "POST"],
-        allowedHeaders: ["Content-Type"]
-    })
+  cors({
+    origin: "https://hotel-guest-assistant-lj9j39gzo-hotel-guest-assistant.vercel.app",
+    methods: ["GET", "POST"],
+    allowedHeaders: ["Content-Type"]
+  })
 );
 
 app.use(express.json());

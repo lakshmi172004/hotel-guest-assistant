@@ -46,7 +46,7 @@ function App() {
         try {
 
            const response = await fetch(
-    `${import.meta.env.VITE_API_URL || "http://localhost:5000"}/api/chat`,
+    "https://hotel-guest-assistant-ygch.onrender.com/api/chat",
     {
         method: "POST",
         headers: {
